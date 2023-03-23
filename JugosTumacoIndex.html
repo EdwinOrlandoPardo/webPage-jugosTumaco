@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="Styles.css"/>
+    <title>Jugos Tumaco</title>
+</head>
+<body>
+    
+    <nav class="navbar container">
+
+        <div id="logo" class="logo">
+            <img src="./assets/logo.png">
+        </div>
+
+        <div>
+            <ul class="nav-list">
+                <li><a class="navitem" href="">Nosotros</a></li>
+                <li><a class="navitem" href="">Producto</a></li>
+                <li><a class="navitem" href="">Contacto</a></li>
+            </ul>
+        </div>
+        
+        <div>
+            <input type="search" name="buscar" id="buscar" placeholder="Buscar Producto">
+        </div>
+
+        <div>
+            <button class="carrito" >
+                <i class="material-symbols-outlined">shopping_cart</i>
+            </button>
+        </div>
+
+    </nav>
+
+    <header>
+
+        <section class="container">
+            <div class="banner">
+
+            </div>
+        </section>
+
+    </header>
+
+    <main class="main">
+        <section class="section-detail">
+            <h2 class="title">Sabores ancestrales</h2>
+            <div class="detail">
+                <div class="item1">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Nihil praesentium debitis repellat exercitationem omnis. 
+                        Ipsam commodi.
+                    </p>
+                </div>
+
+                <div class="item2">
+                    <img class="img-detail" src="./assets/jugoMango.png">
+                </div> 
+
+                <div class="item3">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Nihil praesentium debitis repellat exercitationem omnis. 
+                        Ipsam commodi.
+                    </p>
+                </div>
+
+            </div>
+        </section> 
+
+        <section class="section-product">
+            <h2 class="title">Nuestros Productos</h2>
+
+            <div class="product">
+
+                <div class="product-container">
+
+                    <img class="img-product" src="./assets/jugoFresa.png">
+                    <h3>jugo de fresa</h3>
+                    <h2>$ 5.500</h2>
+
+                    <div class="container-btn">
+                        <button>
+                            <span class="material-symbols-outlined">
+                                add </span>
+                        </button>
+
+                        <input id="contador" readonly placeholder="+ 1">
+                        
+                        <button>
+                            <span class="material-symbols-outlined">
+                                remove </span>
+                        </button>
+                        <button class="comprar"> Comprar </button>                        
+                    </div>
+
+                </div>
+
+                <div class="product-container">
+                    <img class="img-product" src="./assets/jugoMora.png">
+                    <h3>jugo de Mango</h3>
+                    <h2>$ 5.500</h2>
+
+                    <div class="container-btn">
+                        <button >
+                            <span class="material-symbols-outlined">
+                                add </span>
+                        </button>
+
+                        <input id="contador" readonly placeholder="+ 1">
+                        
+                        <button>
+                            <span class="material-symbols-outlined">
+                                remove </span>
+                        </button>
+                        <button class="comprar">
+                            Comprar
+                        </button>                        
+                    </div>
+                </div>
+                <div class="product-container">
+                    <img class="img-product" src="./assets/jugoQuiwi.png">
+                    <h3>jugo de Quiwi</h3>
+                    <h2>$ 5.500</h2> 
+                    
+                    <div class="container-btn">
+                        <button class="btn-add">
+                            <span class="material-symbols-outlined">
+                                add </span>
+                        </button>
+
+                        <input id="contador" readonly placeholder="+ 1">
+                        
+                        <button>
+                            <span class="material-symbols-outlined">
+                                remove </span>
+                        </button>
+                        <button class="comprar">
+                            Comprar
+                        </button>                        
+                    </div>
+                </div>
+            </div>
+        </section> 
+        
+        <section class="section-costumers">
+
+            <h2 class="title">Clientes felices</h2>
+        <div class="card-container">
+
+                
+            <div class="card-review">
+                <img src="./assets/joe.jpg" alt="img de perfil">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Qui sint harum a eius,facilis quas! Autem voluptas eius 
+                        perferendis ratione enim praesentium molestiae ex culpa,
+                        eaque ipsa voluptates quod dignissimos?
+                    </p>
+                </div>
+            </div>
+
+            <div class="card-review">
+                <img src="./assets/andrea.jpg" alt="img de perfil">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Qui sint harum a eius,facilis quas! Autem voluptas eius 
+                        perferendis ratione enim praesentium molestiae ex culpa,
+                        eaque ipsa voluptates quod dignissimos?
+                    </p>
+                </div>
+            </div>
+
+            <div class="card-review">
+                <img src="./assets/jimmy.jpg" alt="img de perfil">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Qui sint harum a eius,facilis quas! Autem voluptas eius 
+                        perferendis ratione enim praesentium molestiae ex culpa,
+                        eaque ipsa voluptates quod dignissimos?
+                    </p>
+                </div>
+            </div>
+        </div>     
+        </section>     
+    </main>
+
+    <footer class="footer">
+
+        <div class="container-social">  
+
+            <img class="fondo" src="./assets/waves.svg" alt="footer">           
+
+            <div class="btn-container-footer">
+                
+                <img clas="logo" src="./assets/logo.png">
+
+                <button>
+                    <img src="./assets/facebook.png">
+                </button>
+                <button>
+                    <img src="./assets/instagram.png">
+                </button>
+                <button>
+                    <img src="./assets/twitter.png">
+                </button>
+            </div>   
+
+        </div>   
+    </footer>
+</body>
+</html>
