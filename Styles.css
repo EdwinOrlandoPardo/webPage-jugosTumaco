@@ -7,9 +7,8 @@ body{
     display: grid;  
     
 }
-.container{
-    width: 100%; 
-    
+.burger{
+    display: none;
 }
 
 .navbar{
@@ -201,7 +200,7 @@ h2{
 }
 
 .card-review img{
-    margin: -60px 0 30px 0; 
+    margin: -60px 0 20px 0; 
     border: 5px solid rgb(171, 238, 15);
     vertical-align: middle;
     background-repeat: no-repeat;

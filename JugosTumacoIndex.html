@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="Styles.css"/>
+    <link rel="stylesheet" href="PhoneMediaScreen.css"/>
+    <script src="./NavBar.js"></script>
     <title>Jugos Tumaco</title>
 </head>
 <body>
     
-    <nav class="navbar container">
+    <nav class="navbar">
+
+        <button onclick="toggleMenu()" class="burger material-symbols-outlined ">
+             menu
+        </button>
 
         <div id="logo" class="logo">
             <img src="./assets/logo.png">
@@ -18,6 +24,7 @@
 
         <div>
             <ul class="nav-list">
+                <li><a class=" active navitem" href="">Home</a></li>
                 <li><a class="navitem" href="">Nosotros</a></li>
                 <li><a class="navitem" href="">Producto</a></li>
                 <li><a class="navitem" href="">Contacto</a></li>
